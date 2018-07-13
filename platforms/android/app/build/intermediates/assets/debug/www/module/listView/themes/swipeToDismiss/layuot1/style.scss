@@ -1,0 +1,120 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  # Theme Small item + header
+================================================*/
+.slider {
+  height: 62px;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-bcg {
+  @include header( 'header-bcg');
+  height: 95px !important;
+  .item {
+    padding: 0;
+    border: none;
+  }
+  .social {
+    @include social;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+
+  .span-medium {
+    @include span( 'span-medium');
+    padding-top: 10px;
+    padding-left: 85px;
+    display: inline-block;
+  }
+
+  h1.header-title {
+    @include header( 'header-title');
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  h2.header-subtitle {
+    @include header( 'header-subtitle');
+    margin-left: 85px;
+  }
+
+  .icon-large.icon {
+    font-size: 32px;
+    color: theme-colors('mainColors', 'accent');
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+}
+/*  #Content
+===========================================*/
+.swiped-item-bcg {
+  @include swiped-item( 'swiped-item-bcg');
+  width: 100%;
+  display: table;
+  height: 62px;
+
+  a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  a:first-child {
+    width: 80%;
+  }
+
+  h2.swiped-item-title {
+    @include swiped-item( 'swiped-item');
+    margin: 0;
+  }
+}
+
+.swipe-to-dismiss {
+  margin-top: 150px;
+
+  .item-bcg {
+    @include item( 'item-bcg');
+
+    .item {
+      background-color: transparent;
+    }
+  }
+
+  h2.item-title {
+    @include item( 'item-title');
+  }
+
+  h3.item-subtitle {
+    @include item( 'item-subtitle');
+  }
+
+  .icon-medium {
+    @include icon( 'icon-medium');
+  }
+
+  img {
+    border-radius: $border-radius !important;
+    top: 9px !important;
+  }
+
+  .item {
+    padding: 10px 90px 10px 70px;
+    min-height: 64px;
+  }
+
+  .span-small {
+    color: theme-colors('textColors', 'primary');
+    position: absolute;
+    right: 50px;
+    font-size: font-size-text('h6');
+    top: 20px;
+  }
+}
+/*  # Ios platform
+================================================*/
+.platform-ios .swipe-to-dismiss {
+  margin-top: 168px;
+}

@@ -1,0 +1,47 @@
+// Include Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  # Theme Register + logo
+======================================================*/
+.register-form {
+  padding-top: 30px;
+  margin: 0 25px;
+}
+img {
+  max-width: 45px;
+  margin: 0 15px;
+}
+.button-flat {
+  @include button('button-flat');
+}
+.form-input {
+  overflow: hidden;
+}
+.form-block {
+  @include input-item('form-block');
+  padding: 10px 25px;
+  border-radius: $border-radius;
+  box-shadow: $box-shadow-z2;
+  padding: 15px 0;
+  margin-bottom: 25px;
+  h1.title {
+    font-size: font-size-text('h1');
+    color: theme-colors('textColors', 'primary');
+    padding-right: 10px;
+    text-align: right;
+    text-transform: uppercase;
+    margin: 0 10px;
+  }
+}
+.input-field{
+  width: 95%;
+  margin: 15px auto 25px auto;
+  input {
+   @include input-item('input');
+  width: calc(100% - 4rem) !important;
+ }
+ .icon-small {
+   @include icon('icon-small');
+   left: 5px;
+   top: 15px;
+ }
+}

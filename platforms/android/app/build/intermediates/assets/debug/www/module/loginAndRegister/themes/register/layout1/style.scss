@@ -1,0 +1,45 @@
+// Include Main Sass
+@import "../../../../../../scss/main-style.scss";
+
+/*  Theme Genaral LoginAndRegister Register Shop
+===================================================*/
+img {
+  max-width: 280px;
+  display: block;
+  float: right;
+  margin: 15px 0;
+}
+
+.form-input{
+  overflow: hidden;
+    clear: both;
+}
+/*  Form
+===========================================*/
+.input-field .prefix ~ input {
+    width: 90% !important;
+}
+.form-block {
+    padding-top: 40px;
+    margin: 0 50px;
+}
+.button-default {
+  @include button('button-default');
+  margin-top: 15px;
+  margin-right: 7px;
+}
+.input-field {
+  input + label {
+    left: -47px !important;
+  }
+  input {
+    @include input-item( 'input');
+    margin-left: 0 !important;
+  }
+  .icon-small {
+    @include icon( 'icon-small');
+    text-align: right;
+    right: 0;
+    top: 10px;
+  }
+}

@@ -1,0 +1,40 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  # Theme Post cards 2
+================================================*/
+.slider {
+  height: auto !important;
+}
+
+.item {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.card {
+  box-shadow: none !important;
+  margin: 10px 10px 0;
+
+  .button-default {
+    @include button( 'button-default');
+    width: 32%;
+    padding: 0;
+  }
+
+  img {
+    border-radius: $border-radius;
+  }
+
+  .card-bcg {
+    @include item-card( 'card-bcg');
+    margin: 0 20px !important;
+
+    h2.card-title {
+      @include item-card( 'card-title');
+    }
+
+    h3.card-subtitle {
+      @include item-card( 'card-subtitle');
+    }
+  }
+}

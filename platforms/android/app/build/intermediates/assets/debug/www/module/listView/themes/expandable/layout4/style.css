@@ -1,0 +1,84 @@
+/*  # Thema Centered with header
+===========================================*/
+.container-hearder-image {
+  height: 145px;
+  display: table;
+  width: 100%;
+  background-color: white;
+  background-blend-mode: luminosity;
+  position: relative; }
+  .container-hearder-image::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    background-color: #b1eaf1; }
+  .container-hearder-image .header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: table-cell;
+    vertical-align: middle;
+    z-index: 9999;
+    position: relative; }
+
+.collapsible {
+  margin: 0;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: none; }
+  .collapsible .icon-small {
+    color: #80d3f9 !important;
+    font-size: 20px !important;
+    margin: 0 auto;
+    float: none;
+    line-height: 30px; }
+  .collapsible .item-bcg {
+    background-color: #f9fafa !important;
+    border-color: #eeeeee !important;
+    transition: all 0s ease-out;
+    border-color: transparent !important;
+    margin: 0; }
+  .collapsible .collapsible-header {
+    padding-top: 15px;
+    padding-bottom: 10px; }
+    .collapsible .collapsible-header::before {
+      content: "";
+      width: 50%;
+      border-bottom: 1px solid #eeeeee;
+      position: absolute;
+      bottom: 0;
+      left: 25%; }
+    .collapsible .collapsible-header h2.item-title {
+      color: #757575;
+      font-size: 14px;
+      margin: 10px 0; }
+  .collapsible .collapsible-body {
+    border-bottom: none; }
+    .collapsible .collapsible-body .subitem-bcg {
+      background-color: white !important;
+      border-color: #eeeeee !important;
+      border-color: transparent !important; }
+      .collapsible .collapsible-body .subitem-bcg ::before {
+        content: '';
+        width: 70%;
+        border-bottom: 1px solid #eeeeee;
+        margin: 0 auto;
+        position: absolute;
+        bottom: 0;
+        left: 15%; }
+    .collapsible .collapsible-body h2.subitem-title {
+      color: #757575;
+      font-size: 14px;
+      line-height: normal;
+      padding: 15px 0;
+      margin: 0; }
+    .collapsible .collapsible-body a.item {
+      margin: 0 auto;
+      padding: 0; }

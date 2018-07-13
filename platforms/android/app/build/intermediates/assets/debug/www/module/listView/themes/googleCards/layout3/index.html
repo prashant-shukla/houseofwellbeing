@@ -1,0 +1,44 @@
+<!--Theme Post cards-->
+<ion-content class="has-header">
+  <ion-refresher pulling-text="{{listViewController.data.refreshMessage}}"
+  on-refresh="listViewController.doRefresh()">
+  </ion-refresher>
+  <!--Post cards Content-->
+  <ion-list>
+    <ion-slide-box on-slide-changed="listViewController.deleteItem(key, true)"
+    show-pager="false" ng-click="listViewController.onClick('onItemClick', item, $event)"
+    ng-repeat="(key, item) in listViewController.data.items">
+      <!--Post cards Card-->
+      <ion-slide>
+        <div class="card card-bcg">
+          <div class="item item-avatar">
+            <img ng-src="{{item.avatar}}" />
+            <h2 class="card-title">{{item.title}}</h2>
+            <h3 class="card-subtitle">{{item.shortDescription}}</h3>
+          </div>
+          <div class="item item-image">
+            <img ng-src="{{item.image}}" alt="{{item.title}}" />
+          </div>
+          <div class="item item-body tem-text-wrap" >
+            <div class="content" ng-class="{ less: listViewController.data.hidden }" ng-bind-html="item.description">
+            <p class="card-body-text"></p>
+            <div class="card-bottom">
+              <a href="#" class="button-default-clear subdued right"
+              ng-click="listViewController.onClick('onFollow', item, $event)">
+                {{item.secondButton}}
+              </a>
+              <a href="#" class="button-default-clear subdued right"
+              ng-click="listViewController.onClick('onLike', item, $event)">
+                {{item.firstButton}}
+              </a>
+            </div>
+          </div>
+          <button ng-click="listViewController.data.hidden = !listViewController.data.hidden">{{listViewController.data.hidden ? 'more..' : 'less'}}</button>
+
+        </div>
+      </ion-slide>
+      <ion-slide>
+      </ion-slide>
+    </ion-slide-box>
+  </ion-list>
+</ion-content>

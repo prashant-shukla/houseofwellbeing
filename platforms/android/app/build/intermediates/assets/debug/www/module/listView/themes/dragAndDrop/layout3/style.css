@@ -1,0 +1,31 @@
+/*  # Theme Medium item with avatar
+===========================================*/
+.item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+  .item-bcg .item-content {
+    padding-left: 100px;
+    min-height: 84px;
+    padding-top: 20px;
+    background-color: transparent; }
+    .item-bcg .item-content .item-title {
+      color: #757575;
+      font-size: 14px; }
+    .item-bcg .item-content .item-subtitle {
+      color: rgba(117, 117, 117, 0.6);
+      font-size: 14px; }
+  .item-bcg img {
+    max-width: 64px !important;
+    max-height: 64px !important;
+    top: 10px !important; }
+  .item-bcg .item-reorder {
+    padding: 0; }
+    .item-bcg .item-reorder .button.icon {
+      font-size: 24px !important;
+      color: #4ec2f6 !important;
+      right: 0; }
+    .item-bcg .item-reorder.item-right-edit {
+      background-color: transparent; }
+      .item-bcg .item-reorder.item-right-edit.visible.active {
+        background-color: transparent !important; }

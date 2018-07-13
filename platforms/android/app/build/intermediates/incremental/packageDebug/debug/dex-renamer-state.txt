@@ -1,0 +1,4 @@
+#Fri Jul 13 16:41:29 IST 2018
+base.0=/Applications/MAMP/htdocs/charbel/codecanyon-17090015-material-design-ui-ionic-template-app/houseofwellbeing/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+renamed.0=classes.dex
+file.0=/Applications/MAMP/htdocs/charbel/codecanyon-17090015-material-design-ui-ionic-template-app/houseofwellbeing/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0/classes.dex

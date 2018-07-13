@@ -1,0 +1,53 @@
+/*  # Themes List Big Image
+===========================================*/
+.collapsible {
+  margin: 0;
+  border-width: 0; }
+  .collapsible .collapsible-header {
+    padding: 0;
+    border-bottom: 1px solid transparent; }
+    .collapsible .collapsible-header .social {
+      position: absolute;
+      right: 0;
+      bottom: 0; }
+      .collapsible .collapsible-header .social i.icon {
+        color: #80d3f9;
+        font-size: 20px;
+        width: 35px;
+        display: inline-block; }
+    .collapsible .collapsible-header .item-bcg {
+      background-color: #f9fafa !important;
+      border-color: #eeeeee !important;
+      transition: all 0s ease-out;
+      padding-left: 190px;
+      min-height: 170px;
+      padding-top: 20px; }
+      .collapsible .collapsible-header .item-bcg img {
+        top: 0 !important;
+        left: 0 !important;
+        max-height: 100% !important;
+        max-width: 170px !important; }
+      .collapsible .collapsible-header .item-bcg h2.item-title {
+        color: #757575;
+        font-size: 14px; }
+      .collapsible .collapsible-header .item-bcg h3.item-subtitle {
+        color: rgba(117, 117, 117, 0.6);
+        font-size: 14px; }
+  .collapsible .collapsible-body {
+    border-bottom: 1px solid transparent; }
+    .collapsible .collapsible-body .subitem-bcg {
+      background-color: white !important;
+      border-color: #eeeeee !important; }
+      .collapsible .collapsible-body .subitem-bcg img {
+        border-radius: 4px; }
+      .collapsible .collapsible-body .subitem-bcg .subitem-title {
+        padding-top: 20px;
+        color: #757575;
+        font-size: 14px;
+        line-height: normal; }
+      .collapsible .collapsible-body .subitem-bcg h3.subitem-subtitle {
+        color: rgba(117, 117, 117, 0.6);
+        font-size: 14px; }
+      .collapsible .collapsible-body .subitem-bcg .icon-medium {
+        color: #4ec2f6 !important;
+        font-size: 24px !important; }

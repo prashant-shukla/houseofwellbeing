@@ -1,0 +1,61 @@
+/*  # Theme Full width
+===========================================*/
+.hero {
+  background-color: white;
+  background-blend-mode: luminosity;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+  .hero::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    background-color: #b1eaf1; }
+  .hero .icon-large {
+    color: #4ec2f6 !important;
+    font-size: 60px !important;
+    margin-top: 40px;
+    display: block;
+    z-index: 9;
+    position: relative; }
+  .hero h1.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    z-index: 9;
+    position: relative; }
+
+/*  # Menu List
+===========================================*/
+.menu-left-list {
+  margin-top: 198px; }
+  .menu-left-list .item-bcg {
+    background-color: #f9fafa !important;
+    border-color: #eeeeee !important;
+    transition: all 0s ease-out; }
+  .menu-left-list h2.item-title {
+    color: #757575;
+    font-size: 14px;
+    padding-left: 30px; }
+  .menu-left-list .icon-small {
+    color: #80d3f9 !important;
+    font-size: 20px !important;
+    margin-left: 25px; }
+
+.menu-left {
+  width: 90% !important; }
+
+.menu-open .menu-content {
+  transform: translate3d(90%, 0px, 0px) !important;
+  -ms-transform: translate3d(90%, 0px, 0px) !important;
+  -webkit-transform: translate3d(90%, 0px, 0px) !important; }

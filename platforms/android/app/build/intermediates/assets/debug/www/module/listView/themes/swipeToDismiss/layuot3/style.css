@@ -1,0 +1,50 @@
+/*  #Theme Large item with text
+===========================================*/
+.slider {
+  height: 150px;
+  border-bottom: 1px solid #ddd; }
+
+.swipeToDismiss .list {
+  padding-top: 0; }
+
+.swipeToDismiss .item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+
+.swipeToDismiss h2.item-title {
+  color: #757575;
+  font-size: 14px;
+  padding-top: 10px; }
+
+.swipeToDismiss p.item-body-text {
+  color: #757575;
+  font-size: 14px;
+  padding-top: 15px; }
+
+.swipeToDismiss .item-text-wrap {
+  background-color: rgba(255, 255, 255, 0.9);
+  min-height: 170px; }
+
+.swiped-item-bcg {
+  background-color: rgba(249, 250, 250, 0.6) !important;
+  height: 100%;
+  margin-bottom: 5px !important;
+  display: table;
+  width: 100%; }
+  .swiped-item-bcg i.icon {
+    font-size: 24px !important;
+    color: #4ec2f6; }
+  .swiped-item-bcg .swiped-item-title {
+    color: #757575;
+    font-size: 14px !important; }
+  .swiped-item-bcg a {
+    display: table-cell;
+    vertical-align: middle; }
+  .swiped-item-bcg a:first-child {
+    width: 65%; }
+  .swiped-item-bcg a:last-child {
+    background-color: rgba(255, 255, 255, 0.6) !important; }
+    .swiped-item-bcg a:last-child p {
+      color: #757575;
+      font-weight: normal; }

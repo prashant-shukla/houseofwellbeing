@@ -1,0 +1,64 @@
+/*  #Main Sass
+================================================*/
+@import "../../../../../../scss/main-style.scss";
+img {
+  margin: 0 auto;
+  display: block;
+  clear: both;
+  max-width: 100px;
+}
+.button-flat {
+  margin: 10px;
+  @include button( 'button-flat');
+}
+.form-block {
+  margin: 0 25px;
+  overflow: hidden;
+  .form-input {
+    overflow: hidden;
+  }
+  .button-default {
+    margin-left: 10px;
+    @include button( 'button-default');
+  }
+  /* Style Social Network
+  ===========================================*/
+  .social {
+    margin: 40px auto 0;
+    overflow: hidden;
+    p {
+      color: theme-colors('textColors', 'primary');
+      font-size: 16px;
+    }
+    .button-social {
+      font-size: 16px;
+      color: #fff;
+      border-radius: $border-radius;
+      padding: 7px 10px;
+      width: 49%;
+      text-align: center;
+      float: left;
+      display: block;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+    & > .button-social:nth-child(3) {
+      margin-right: 0;
+    }
+    & > .button-social:nth-child(5) {
+      margin-right: 0;
+    }
+  }
+}
+.input-field {
+  margin-bottom: 25px;
+  input {
+    @include input-item( 'input');
+  }
+  .icon-small {
+    @include icon( 'icon-small');
+    text-align: center;
+    left: 5px;
+    top: 15px;
+  }
+}

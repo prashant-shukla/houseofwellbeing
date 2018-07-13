@@ -1,0 +1,78 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  #Theme Product Cards
+===========================================*/
+.slider {
+  height: auto;
+}
+
+.card-bcg {
+  @include item-card( 'card-bcg');
+  padding: 0 5px 5px;
+  margin: 5px 10px;
+
+  .card-header {
+    & > .card-title:first-child {
+      @include item-card( 'card-title');
+      margin: 5px 10px;
+      clear: both;
+    }
+
+    h2.card-title {
+      @include item-card( 'card-title');
+      clear: both;
+      margin-bottom: 5px;
+      padding-left: 15px;
+      text-transform: uppercase;
+    }
+  }
+}
+/*  #Content
+===========================================*/
+.container-background {
+  @include darkening-blend-mode;
+  position: relative;
+  height: 120px;
+  display: table;
+  width: 100%;
+
+  .half {
+    display: table-cell;
+    vertical-align: bottom;
+    padding: 10px;
+    position: relative;
+
+    .card-title {
+      padding-left: 0;
+    }
+
+    .button-default {
+      @include button( 'button-default');
+    }
+  }
+
+  h2.card-title {
+    color: theme-colors('textColors', 'accent');
+    font-size: font-size-text('h3');
+    margin: 0;
+    text-transform: uppercase;
+  }
+
+  p.card-body-text {
+    font-size: font-size-text('p');
+    color: theme-colors('textColors', 'accent');
+    margin-bottom: 5px;
+    line-height: 15px;
+  }
+
+  .price {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    &.span-medium {
+      @include span( 'span-medium');
+      color: theme-colors('textColors', 'accent');
+    }
+  }
+}

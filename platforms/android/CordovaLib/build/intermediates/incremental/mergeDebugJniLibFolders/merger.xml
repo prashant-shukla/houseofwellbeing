@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Applications/MAMP/htdocs/charbel/codecanyon-17090015-material-design-ui-ionic-template-app/houseofwellbeing/platforms/android/CordovaLib/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Applications/MAMP/htdocs/charbel/codecanyon-17090015-material-design-ui-ionic-template-app/houseofwellbeing/platforms/android/CordovaLib/src/debug/jniLibs"/></dataSet></merger>

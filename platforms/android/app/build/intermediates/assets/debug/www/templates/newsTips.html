@@ -1,0 +1,18 @@
+<style>
+    .content {
+      width: 240px;
+      overflow: hidden;
+      word-wrap: break-word;
+      text-overflow: ellipsis;
+      line-height: 18px;
+    }
+    .less {
+      max-height: 90px;
+    }
+
+</style>
+
+<ion-content class="menu-panel center" ng-controller="NewsListCtrl">
+    <google-cards theme="params.theme" data="params.data">
+    </google-cards>
+</ion-content>

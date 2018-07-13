@@ -1,0 +1,54 @@
+/*  # Theme With Header
+===========================================*/
+img {
+  width: 100%; }
+
+h1.wizard-title {
+  color: white;
+  font-size: 20px !important; }
+
+p.wizard-body-text {
+  color: white;
+  font-size: 14px !important; }
+
+.background-color {
+  background: #26bbec; }
+
+.ion-record:before {
+  font-family: 'Fontello';
+  content: "\ea58";
+  color: #ffffff; }
+
+.button-default {
+  background-color: #26bbec !important;
+  color: white !important;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 110px;
+  margin: 0 auto; }
+
+.slider {
+  height: 85%; }
+
+.scroll {
+  height: 100%;
+  min-height: 100%; }
+
+.wizard-travel-description {
+  padding: 20px; }
+
+.slidertext {
+  position: relative; }
+
+.slidertext::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 50%;
+  background: #26bbec;
+  background: -webkit-linear-gradient(transparent, #26bbec 60%);
+  background: -o-linear-gradient(transparent, #26bbec 60%);
+  background: -moz-linear-gradient(transparent, #26bbec 60%);
+  background: linear-gradient(transparent, #26bbec 60%); }

@@ -1,0 +1,47 @@
+/*  # Theme Account header
+===========================================*/
+.hero {
+  padding: 25px 0;
+  height: 200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #26bbec; }
+  .hero img {
+    height: 104px;
+    width: 104px;
+    border-radius: 50%;
+    position: relative;
+  }
+  .hero h1.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0 0;
+    text-transform: uppercase;
+    width: 100%;
+    display: inline-block; }
+  .hero h2.header-subtitle {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin: 0; }
+
+/*  # Menu List
+===========================================*/
+.has-header-media {
+  margin-top: 200px; }
+  .has-header-media .item-icon-left {
+    padding-left: 70px; }
+  .has-header-media .item-bcg {
+    background-color: #f9fafa !important;
+    border-color: #eeeeee !important;
+    transition: all 0s ease-out; }
+    .has-header-media .item-bcg h2.item-title {
+      color: #757575;
+      font-size: 14px;
+      line-height: normal; }
+    .has-header-media .item-bcg.activated {
+      border-color: transparent;
+      border-width: 1px; }
+    .has-header-media .item-bcg .icon-small {
+      color: #80d3f9 !important;
+      font-size: 20px !important;
+      left: 30px; }

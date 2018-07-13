@@ -1,0 +1,44 @@
+<!--Theme Register + logol-->
+<ion-content class="has-header">
+  <!--Theme Register + logol Form-->
+  <div class="register-form">
+    <div class="form-block">
+      <h1 class="title">{{registerController.data.title}}</h1>
+      <div class="form-input">
+        <div class="input-field">
+          <i class="icon-small icon prefix {{registerController.data.iconAccount}}"></i>
+          <input id="username" type="text" ng-model="registerController.username">
+          <label for="username">{{registerController.data.username}}</label>
+        </div>
+        <div class="input-field">
+          <i class="icon-small icon prefix {{registerController.data.iconLock}}"></i>
+          <input id="password" type="text" ng-model="registerController.password">
+          <label for="password">{{registerController.data.password}}</label>
+        </div>
+        <div class="input-field">
+          <i class="icon-small icon prefix {{registerController.data.iconEmail}}"></i>
+          <input id="email" type="text" ng-model="registerController.email">
+          <label for="email">{{registerController.data.email}}</label>
+        </div>
+        <div class="input-field">
+          <i class="icon-small icon prefix {{registerController.data.iconFlag}}"></i>
+          <input id="country" type="text" ng-model="registerController.country">
+          <label for="country">{{registerController.data.country}}</label>
+        </div>
+        <div class="input-field">
+          <i class="icon-small icon prefix {{registerController.data.iconCity}}"></i>
+          <input id="city" type="text" ng-model="registerController.city">
+          <label for="city">{{registerController.data.city}}</label>
+        </div>
+        <button class="button-flat waves-effect waves-dark btn-flat right"
+        ng-click="registerController.onClick('onRegister')">
+            {{registerController.data.register}}
+        </button>
+      </div>
+    </div>
+    <img ng-src="{{registerController.data.logo}}" />
+    <button class="button-flat waves-effect waves-dark btn-flat right"
+    ng-click="registerController.onClick('onSkip')"> {{registerController.data.skip}}
+    </button>
+  </div>
+</ion-content>
