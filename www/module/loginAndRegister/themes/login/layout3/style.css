@@ -1,0 +1,69 @@
+/*  Theme Genaral LoginAndRegister Social
+===========================================*/
+img {
+  display: block;
+  float: left;
+  margin-left: 20px;
+  max-width: 250px; }
+
+.button-default {
+  margin: 0 10px;
+  max-width: 150px;
+  font-size: 10px;
+}
+
+.form-block {
+  margin: 0 25px; }
+
+.input-field input {
+  font-size: 14px;
+  color: #757575;
+  border-bottom: 1px solid #26bbec !important;
+  font-weight: 300; }
+  .input-field input:focus:not([readonly]) {
+    color: #757575;
+    box-shadow: none; }
+  .input-field input + label {
+    color: #757575;
+    font-size: 14px;
+    left: 0;
+    top: 11px; }
+    .input-field input + label.active {
+      color: rgba(117, 117, 117, 0.6) !important;
+      font-size: 12px; }
+
+/* Style Social Network
+===========================================*/
+.form-input {
+  overflow: hidden; }
+
+.social {
+  margin: 40px auto 0;
+  overflow: hidden; }
+  .social p {
+    color: #757575;
+    font-size: 16px; }
+  .social .button-social {
+    font-size: 16px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 7px 10px;
+    width: 49%;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right: 5px;
+    margin-bottom: 5px; }
+  .social > .button-social:nth-child(3) {
+    margin-right: 0; }
+  .social > .button-social:nth-child(5) {
+    margin-right: 0; }
+
+.logo-block {
+  overflow: hidden;
+  padding-bottom: 50px; }
+
+.btn-login {
+  background: #26bbec;
+}
+

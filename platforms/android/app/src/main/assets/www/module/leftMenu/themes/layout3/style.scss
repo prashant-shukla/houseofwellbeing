@@ -1,0 +1,81 @@
+//*  # Main Sass
+@import "../../../../../scss/main-style.scss";
+/*  # Theme Profile header
+===========================================*/
+.hero {
+  background-color: theme-colors('mainColors', 'primary');
+  overflow: hidden;
+  height: 180px;
+  box-shadow: $box-shadow-z2;
+
+  h1.header-title {
+    @include header( 'header-title');
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+  }
+
+  h2.header-subtitle {
+    @include header( 'header-subtitle');
+    margin: 0;
+  }
+
+  .icon-small {
+    color: theme-colors('textColors', 'accent');
+    font-size: icon-size('icon-small') !important;
+  }
+
+  p {
+    color: theme-colors('textColors', 'accent');
+    font-size: font-size-text('p') !important;
+  }
+
+  img {
+    max-width: 64px !important;
+    max-height: 64px !important;
+  }
+
+  .half {
+    width: 50%;
+    padding: 5px 0;
+    float: left;
+  }
+
+  .item-icon-left {
+    padding-left: 45px;
+    border-color: transparent;
+  }
+
+  .item-avatar {
+    padding-left: 90px;
+  }
+}
+/*  # Menu List
+===========================================*/
+.menu-left-list {
+  top: 180px;
+
+  .item-bcg {
+    @include item( 'item-bcg');
+  }
+
+  h2.item-title {
+    @include item( 'item-title');
+  }
+
+  h3.item-subtitle {
+    @include item( 'item-subtitle');
+  }
+
+  .icon-small {
+    @include icon( 'icon-small');
+  }
+
+  .badge-small {
+    @include badge( 'badge-small');
+    top: 25px;
+    right: 20px;
+    min-width: auto!important;
+    font-weight: normal;
+  }
+}

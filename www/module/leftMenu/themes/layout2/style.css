@@ -1,0 +1,24 @@
+/*  # Theme Narrow
+===========================================*/
+.main-left-list .icon-medium {
+  display: block;
+  color: #4ec2f6 !important;
+  font-size: 24px !important; }
+
+.main-left-list .item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+
+.main-left-list h2.item-title {
+  line-height: normal;
+  color: #757575;
+  font-size: 14px; }
+
+.menu-left {
+  width: 120px !important; }
+
+.menu-open .menu-content {
+  transform: translate3d(120px, 0px, 0px) !important;
+  -ms-transform: translate3d(120px, 0px, 0px) !important;
+  -webkit-transform: translate3d(120px, 0px, 0px) !important; }

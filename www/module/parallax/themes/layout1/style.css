@@ -1,0 +1,84 @@
+/*  # Theme Players
+================================================*/
+.container-hearder-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-blend-mode: luminosity;
+  height: 250px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9; }
+  .container-hearder-image::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    background-color: #b1eaf1; }
+  .container-hearder-image .social {
+    padding: 15px;
+    position: relative;
+    z-index: 9; }
+    .container-hearder-image .social i.icon {
+      color: #80d3f9;
+      font-size: 20px;
+      width: 35px;
+      display: inline-block; }
+  .container-hearder-image h1.parallax-title {
+    color: white;
+    font-size: 24px !important;
+    padding: 130px 30px 0;
+    margin: 0;
+    position: relative;
+    z-index: 9; }
+  .container-hearder-image .play-block {
+    position: absolute;
+    bottom: 0;
+    padding: 10px 20px;
+    width: 100%; }
+    .container-hearder-image .play-block .icon-medium {
+      color: #4ec2f6 !important;
+      font-size: 24px !important;
+      line-height: 20px;
+      display: inline-block;
+      width: 60px;
+      position: relative;
+      z-index: 9; }
+
+/*  #Parallax Players Content
+===========================================*/
+.item-bcg {
+  min-height: 60px;
+  padding-top: 10px;
+  padding-bottom: 0;
+  padding-right: 90px;
+  overflow: hidden;
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+  .item-bcg img {
+    border-radius: 4px !important;
+    top: 8px !important;
+    left: 8px !important; }
+  .item-bcg .icon-medium {
+    color: #4ec2f6 !important;
+    font-size: 24px !important; }
+  .item-bcg .span-small {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    font-size: 12px;
+    color: #757575;
+    font-weight: normal; }
+  .item-bcg h2.item-title {
+    color: #757575;
+    font-size: 14px; }
+  .item-bcg h3.item-subtitle {
+    color: rgba(117, 117, 117, 0.6);
+    font-size: 14px; }

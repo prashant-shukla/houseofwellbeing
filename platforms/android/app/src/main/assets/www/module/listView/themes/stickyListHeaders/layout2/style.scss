@@ -1,0 +1,77 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  # Thema Category header + product list
+===========================================*/
+.item-divider {
+  border-color: transparent !important;
+  margin: 0;
+  &.header-divider {
+    @include header( 'header-divider');
+    text-transform: uppercase;
+  }
+
+  h2.header-title {
+    @include header( 'header-title');
+  }
+}
+/*  #Gallery Style
+===========================================*/
+.item-bcg {
+  @include item( 'item-bcg');
+  z-index: 9;
+
+  img {
+    border-radius: $border-radius;
+  }
+
+  .gallery {
+    margin-bottom: 10px;
+    overflow: hidden;
+
+    img {
+      width: 24% !important;
+      display: block;
+      float: left;
+      margin-left: 4px;
+    }
+
+    img:first-child {
+      margin-left: 0;
+    }
+  }
+
+  .content-info {
+    display: table;
+    width: 100%;
+
+    .description {
+      font-size: font-size-text('h5');
+      color: theme-colors('textColors', 'primary', 'opacity60');
+      margin-left: 20px;
+      line-height: 25px;
+    }
+
+    .span-small {
+      @include span( 'span-small');
+      text-decoration: line-through;
+    }
+
+    .span-medium {
+      @include span( 'span-medium');
+      font-weight: bold;
+    }
+  }
+
+  .info-block {
+    display: table-cell;
+    vertical-align: bottom;
+
+    h2.item-title {
+      @include item( 'item-title');
+    }
+
+    .button-default {
+      @include button( 'button-default');
+    }
+  }
+}

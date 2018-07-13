@@ -1,0 +1,32 @@
+/*  #Theme Centered with header
+===========================================*/
+.collapsible {
+  margin: 0;
+  border: 0;
+  box-shadow: none; }
+  .collapsible .icon-small {
+    color: #80d3f9 !important;
+    font-size: 20px !important; }
+  .collapsible .active .up {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    right: 10; }
+  .collapsible .collapsible-header {
+    padding: 0;
+    border: 0; }
+    .collapsible .collapsible-header .item-bcg {
+      background-color: #f9fafa !important;
+      border-color: #eeeeee !important;
+      transition: all 0s ease-out; }
+    .collapsible .collapsible-header h2.item-title {
+      color: #757575;
+      font-size: 14px; }
+  .collapsible .subitem-bcg {
+    background-color: white !important;
+    border-color: #eeeeee !important;
+    border-color: transparent; }
+  .collapsible h3.subitem-title {
+    color: #757575;
+    font-size: 14px;
+    line-height: normal; }

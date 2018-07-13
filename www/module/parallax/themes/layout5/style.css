@@ -1,0 +1,50 @@
+/*  #Theme Parallax Basic
+===========================================*/
+.container-hearder-image {
+  background-color: white;
+  background-blend-mode: luminosity;
+  height: 250px;
+  position: relative;
+  z-index: 9999; }
+  .container-hearder-image::before {
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+    background-color: #b1eaf1; }
+  .container-hearder-image h1.parallax-title {
+    color: white;
+    font-size: 24px !important;
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    width: 100%; }
+  .container-hearder-image .avatar {
+    border-radius: 50%;
+    height: 64px;
+    width: 64px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px;
+    margin-top: -32px; }
+
+.item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out;
+  padding-top: 25px; }
+  .item-bcg .item-title {
+    color: #757575;
+    font-size: 14px; }
+  .item-bcg .item-subtitle {
+    color: rgba(117, 117, 117, 0.6);
+    font-size: 14px; }
+  .item-bcg .icon-small {
+    color: #80d3f9 !important;
+    font-size: 20px !important; }

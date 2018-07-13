@@ -1,0 +1,47 @@
+/*  #Theme Small header + medium item
+===========================================*/
+.item-divider {
+  padding: 10px; }
+  .item-divider.header-divider {
+    background-color: #26bbec;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-color: transparent;
+    border-width: 0;
+    border-bottom: 1px solid transparent !important;
+    z-index: 9; }
+  .item-divider h2.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400; }
+  .item-divider .icon-small {
+    color: #80d3f9;
+    font-size: 20px;
+    padding-top: 5px; }
+  .item-divider .span-small {
+    color: #80d3f9;
+    font-size: 14px !important;
+    padding-top: 5px; }
+
+.item-avatar-right.item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+
+.item-avatar-right .social i.icon {
+  color: #80d3f9;
+  font-size: 20px;
+  width: 35px;
+  display: inline-block; }
+
+.item-avatar-right .item-title {
+  color: #757575;
+  font-size: 14px;
+  padding: 5px 0; }
+
+.item-avatar-right .item-body {
+  width: 100%;
+  padding: 0; }
+  .item-avatar-right .item-body .item-body-text {
+    color: #757575;
+    font-size: 14px;
+    padding: 25px 5px 0; }

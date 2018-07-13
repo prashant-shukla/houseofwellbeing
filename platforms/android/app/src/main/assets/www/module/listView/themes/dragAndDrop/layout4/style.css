@@ -1,0 +1,60 @@
+/*  # Theme Medium item with image
+===========================================*/
+.item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+  .item-bcg h2.item-title {
+    color: #757575;
+    font-size: 14px; }
+  .item-bcg h3.item-subtitle {
+    color: rgba(117, 117, 117, 0.6);
+    font-size: 14px; }
+  .item-bcg .item-content {
+    background-color: transparent;
+    padding-right: 175px;
+    height: 100px; }
+  .item-bcg .item-images {
+    background-color: white;
+    background-blend-mode: luminosity;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 160px !important;
+    height: 100px !important; }
+    .item-bcg .item-images::before {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      pointer-events: none;
+      mix-blend-mode: multiply;
+      background-color: #b1eaf1; }
+  .item-bcg span {
+    position: absolute;
+    float: right;
+    top: 70px;
+    right: 195px; }
+    .item-bcg span .span-medium {
+      color: #4ec2f6;
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: normal; }
+    .item-bcg span .icon-small {
+      color: #80d3f9 !important;
+      font-size: 20px !important;
+      display: block;
+      float: left; }
+  .item-bcg .item-reorder {
+    padding: 0; }
+    .item-bcg .item-reorder .button.icon {
+      font-size: 24px !important;
+      color: white !important;
+      right: 0; }
+    .item-bcg .item-reorder.item-right-edit {
+      background-color: transparent; }
+      .item-bcg .item-reorder.item-right-edit.visible.active {
+        background-color: transparent !important; }

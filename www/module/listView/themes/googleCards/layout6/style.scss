@@ -1,0 +1,49 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  # Theme Full image cards
+===========================================*/
+.slider {
+  height: auto;
+}
+
+.card-bcg {
+  @include item-card( 'card-bcg');
+  margin: 5px 10px;
+  background-color: transparent;
+  padding: 8px;
+
+  .title-card {
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    text-align: left;
+
+    h2.card-title {
+      color: theme-colors('textColors', 'accent');
+      font-size: font-size-text('h5');
+      text-transform: uppercase;
+      z-index: 4;
+      position: relative;
+    }
+
+    h3.card-subtitle {
+      color: theme-colors('textColors', 'accent', 'opacity70');
+      font-size: font-size-text('h5');
+      z-index: 4;
+      position: relative;
+    }
+  }
+
+  .item-image {
+    @include darkening-blend-mode;
+    border-radius: $border-radius;
+
+    &::before {
+      z-index: 3;
+    }
+
+    img {
+      @include images;
+    }
+  }
+}

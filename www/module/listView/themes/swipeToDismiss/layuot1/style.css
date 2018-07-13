@@ -1,0 +1,103 @@
+/*  # Theme Small item + header
+================================================*/
+.slider {
+  height: 62px;
+  border-bottom: 1px solid #ddd; }
+
+.header-bcg {
+  background-color: #26bbec;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #4ec2f6;
+  height: 95px !important; }
+  .header-bcg .item {
+    padding: 0;
+    border: none; }
+  .header-bcg .social {
+    padding-top: 10px;
+    padding-right: 10px; }
+    .header-bcg .social i.icon {
+      color: #80d3f9;
+      font-size: 20px;
+      width: 35px;
+      display: inline-block; }
+  .header-bcg .span-medium {
+    color: #4ec2f6;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-left: 85px;
+    display: inline-block; }
+  .header-bcg h1.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 85px;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-transform: uppercase; }
+  .header-bcg h2.header-subtitle {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin-left: 85px; }
+  .header-bcg .icon-large.icon {
+    font-size: 32px;
+    color: #4ec2f6;
+    position: absolute;
+    top: 30px;
+    left: 20px; }
+
+/*  #Content
+===========================================*/
+.swiped-item-bcg {
+  background-color: rgba(249, 250, 250, 0.6) !important;
+  width: 100%;
+  display: table;
+  height: 62px; }
+  .swiped-item-bcg i.icon {
+    font-size: 24px !important;
+    color: #4ec2f6; }
+  .swiped-item-bcg .swiped-item-title {
+    color: #757575;
+    font-size: 14px !important; }
+  .swiped-item-bcg a {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center; }
+  .swiped-item-bcg a:first-child {
+    width: 80%; }
+  .swiped-item-bcg h2.swiped-item-title {
+    margin: 0; }
+
+.swipe-to-dismiss {
+  margin-top: 150px; }
+  .swipe-to-dismiss .item-bcg {
+    background-color: #f9fafa !important;
+    border-color: #eeeeee !important;
+    transition: all 0s ease-out; }
+    .swipe-to-dismiss .item-bcg .item {
+      background-color: transparent; }
+  .swipe-to-dismiss h2.item-title {
+    color: #757575;
+    font-size: 14px; }
+  .swipe-to-dismiss h3.item-subtitle {
+    color: rgba(117, 117, 117, 0.6);
+    font-size: 14px; }
+  .swipe-to-dismiss .icon-medium {
+    color: #4ec2f6 !important;
+    font-size: 24px !important; }
+  .swipe-to-dismiss img {
+    border-radius: 4px !important;
+    top: 9px !important; }
+  .swipe-to-dismiss .item {
+    padding: 10px 90px 10px 70px;
+    min-height: 64px; }
+  .swipe-to-dismiss .span-small {
+    color: #757575;
+    position: absolute;
+    right: 50px;
+    font-size: 12px;
+    top: 20px; }
+
+/*  # Ios platform
+================================================*/
+.platform-ios .swipe-to-dismiss {
+  margin-top: 168px; }

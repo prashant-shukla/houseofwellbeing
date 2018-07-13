@@ -1,0 +1,64 @@
+/*  # Theme Profile header
+===========================================*/
+.hero {
+  background-color: #26bbec;
+  overflow: hidden;
+  height: 180px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); }
+  .hero h1.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: uppercase; }
+  .hero h2.header-subtitle {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 14px;
+    margin: 0; }
+  .hero .icon-small {
+    color: white;
+    font-size: 20px !important; }
+  .hero p {
+    color: white;
+    font-size: 14px !important; }
+  .hero img {
+    max-width: 64px !important;
+    max-height: 64px !important; }
+  .hero .half {
+    width: 50%;
+    padding: 5px 0;
+    float: left; }
+  .hero .item-icon-left {
+    padding-left: 45px;
+    border-color: transparent; }
+  .hero .item-avatar {
+    padding-left: 90px; }
+
+/*  # Menu List
+===========================================*/
+.menu-left-list {
+  top: 180px; }
+  .menu-left-list .item-bcg {
+    background-color: #f9fafa !important;
+    border-color: #eeeeee !important;
+    transition: all 0s ease-out; }
+  .menu-left-list h2.item-title {
+    color: #757575;
+    font-size: 14px; }
+  .menu-left-list h3.item-subtitle {
+    color: rgba(117, 117, 117, 0.6);
+    font-size: 14px; }
+  .menu-left-list .icon-small {
+    color: #80d3f9 !important;
+    font-size: 20px !important; }
+  .menu-left-list .badge-small {
+    background-color: #4ec2f6 !important;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+    font-size: 14px;
+    top: 25px;
+    right: 20px;
+    min-width: auto !important;
+    font-weight: normal; }

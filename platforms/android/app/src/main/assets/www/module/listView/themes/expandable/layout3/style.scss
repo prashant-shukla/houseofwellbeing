@@ -1,0 +1,101 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  Theme Expandable Social
+===========================================*/
+.container-hearder-image {
+  @include darkening-blend-mode;
+  height: 100px;
+  width: 100%;
+
+  h1.header-title {
+    @include header( 'header-title');
+    text-transform: uppercase;
+    margin: 0;
+  }
+
+  h2.header-subtitle {
+    @include header( 'header-subtitle');
+  }
+
+  .item-avatar {
+    border-color: transparent!important;
+    padding-left: 90px;
+    padding-top: 30px;
+
+    img {
+      max-width: 64px !important;
+      max-height: 64px !important;
+    }
+  }
+}
+
+.list {
+  padding-bottom: 0;
+}
+/*  Theme Accordion
+  ===========================================*/
+.collapsible {
+  border: 0;
+  box-shadow: none;
+  margin-top: 0;
+
+  .icon-small {
+    @include icon( 'icon-small');
+  }
+
+  .active i.icon-chevron-down {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    right: 10px;
+  }
+
+  .article.ng-hide {
+    line-height: 0;
+  }
+
+  .article.ng-hide-add,
+  .article.ng-hide-remove {
+    display: block !important;
+  }
+
+  .collapsible-header {
+    background-color: transparent;
+    border-color: transparent;
+    padding: 0;
+
+    .item-bcg {
+      @include item( 'item-bcg');
+    }
+
+    .item-title {
+      @include item( 'item-title');
+    }
+
+    .item-subtitle {
+      @include item( 'item-subtitle');
+    }
+  }
+
+  .collapsible-body {
+    border-color: transparent;
+
+    img {
+      margin-left: 5px;
+    }
+
+    .item {
+      &.subitem-bcg {
+        @include subitem( 'subitem-bcg');
+      }
+
+      .subitem-title {
+        @include subitem( 'subitem-title');
+        padding-top: 10px;
+      }
+    }
+
+    i.icon {
+      right: 19px;
+    }
+  }
+}

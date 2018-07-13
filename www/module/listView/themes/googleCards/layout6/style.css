@@ -1,0 +1,47 @@
+/*  # Theme Full image cards
+===========================================*/
+.slider {
+  height: auto; }
+
+.card-bcg {
+  background-color: #f9fafa !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin: 5px 10px;
+  background-color: transparent;
+  padding: 8px; }
+  .card-bcg .title-card {
+    position: absolute;
+    top: 70%;
+    left: 20px;
+    text-align: left; }
+    .card-bcg .title-card h2.card-title {
+      color: white;
+      font-size: 14px;
+      text-transform: uppercase;
+      z-index: 4;
+      position: relative; }
+    .card-bcg .title-card h3.card-subtitle {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 14px;
+      z-index: 4;
+      position: relative; }
+  .card-bcg .item-image {
+    background-color: white;
+    background-blend-mode: luminosity;
+    border-radius: 4px; }
+    .card-bcg .item-image::before {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      pointer-events: none;
+      mix-blend-mode: multiply;
+      background-color: #b1eaf1; }
+    .card-bcg .item-image::before {
+      z-index: 3; }
+    .card-bcg .item-image img {
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }

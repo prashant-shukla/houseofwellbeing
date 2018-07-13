@@ -1,0 +1,56 @@
+/*  Theme Genaral LoginAndRegister Register Shop
+===================================================*/
+img {
+  max-width: 220px;
+  display: block;
+  float: right;
+  margin: 15px 0; }
+
+.form-input {
+  overflow: hidden;
+  clear: both; }
+
+/*  Form
+===========================================*/
+.input-field .prefix ~ input {
+  width: 90% !important; }
+
+.form-block {
+  padding-top: 40px;
+  margin: 0 50px; }
+
+.button-default {
+  background-color: #26bbec !important;
+  color: white !important;
+  font-size: 14px;
+  border-radius: 4px;
+  margin-top: 15px;
+  margin-right: 7px; }
+
+.input-field input + label {
+  left: -47px !important; }
+
+.input-field input {
+  font-size: 14px;
+  color: #757575;
+  border-bottom: 1px solid #26bbec !important;
+  font-weight: 300;
+  margin-left: 0 !important; }
+  .input-field input:focus:not([readonly]) {
+    color: #757575;
+    box-shadow: none; }
+  .input-field input + label {
+    color: #757575;
+    font-size: 14px;
+    left: 0;
+    top: 11px; }
+    .input-field input + label.active {
+      color: rgba(117, 117, 117, 0.6) !important;
+      font-size: 12px; }
+
+.input-field .icon-small {
+  color: #80d3f9 !important;
+  font-size: 20px !important;
+  text-align: right;
+  right: 0;
+  top: 10px; }

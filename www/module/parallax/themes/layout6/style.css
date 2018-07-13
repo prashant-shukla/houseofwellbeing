@@ -1,0 +1,105 @@
+/*  #General Parallax Swiper
+===========================================*/
+.scroll,
+.slider {
+  height: 100% !important; }
+
+#elastic-header {
+  height: 270px;
+  -webkit-transition: height 100ms;
+  /* Safari */
+  transition: height 100ms; }
+  #elastic-header .slider-pager {
+    z-index: 99999; }
+    #elastic-header .slider-pager .slider-pager-page {
+      color: #565656; }
+
+.container-hearder-image {
+  position: relative;
+  z-index: 999; }
+  .container-hearder-image .box {
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 99999;
+    position: relative; }
+    .container-hearder-image .box h1.parallax-title {
+      font-size: 24px;
+      color: white;
+      position: absolute;
+      bottom: 40px;
+      left: 40px; }
+
+/*  #Parallax Content
+===========================================*/
+.text-view-bcg {
+  box-shadow: none;
+  margin: 0;
+  overflow: visible; }
+  .text-view-bcg .button-default {
+    background-color: #26bbec !important;
+    color: white !important;
+    font-size: 14px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    width: 100%;
+    margin-top: 5px; }
+
+/*  #Parallax Body
+===========================================*/
+.text-view-bcg {
+  background-color: white !important; }
+  .text-view-bcg .text-view-bcg-top {
+    padding: 10px;
+    display: table; }
+    .text-view-bcg .text-view-bcg-top .half {
+      display: table-cell; }
+    .text-view-bcg .text-view-bcg-top .span-large {
+      color: #00569a;
+      font-size: 36px;
+      line-height: normal;
+      display: block;
+      clear: both;
+      margin: 10px 0;
+      text-align: center;
+      padding-top: 20px; }
+    .text-view-bcg .text-view-bcg-top .social {
+      padding-top: 5px;
+      display: block;
+      padding-left: 5px; }
+      .text-view-bcg .text-view-bcg-top .social i.icon {
+        color: #80d3f9;
+        font-size: 20px;
+        width: 35px;
+        display: inline-block; }
+    .text-view-bcg .text-view-bcg-top .review-block {
+      position: absolute;
+      right: 40px;
+      font-size: 10px;
+      text-align: left; }
+      .text-view-bcg .text-view-bcg-top .review-block .review {
+        clear: both;
+        display: block; }
+        .text-view-bcg .text-view-bcg-top .review-block .review .icon-small {
+          color: #80d3f9 !important;
+          font-size: 20px !important; }
+        .text-view-bcg .text-view-bcg-top .review-block .review .span-small {
+          color: #4ec2f6;
+          font-size: 12px; }
+  .text-view-bcg .item-text-wrap {
+    padding: 10px 0;
+    border-top: 1px solid rgba(221, 221, 221, 0.5);
+    margin: 10px 40px; }
+    .text-view-bcg .item-text-wrap p.text-view-body {
+      color: #757575;
+      font-size: 14px !important;
+      margin-bottom: 0;
+      padding-bottom: 5px; }
+    .text-view-bcg .item-text-wrap .info-text {
+      margin-bottom: 5px; }
+    .text-view-bcg .item-text-wrap .info-text > p:first-child {
+      font-weight: bold !important;
+      float: left;
+      padding-bottom: 0;
+      margin-right: 5px; }

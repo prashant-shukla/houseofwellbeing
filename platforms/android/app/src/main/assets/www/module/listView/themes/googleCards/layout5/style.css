@@ -1,0 +1,60 @@
+/*  # Theme Styled cards 2
+===========================================*/
+.slider {
+  height: auto; }
+
+/*  #Content
+===========================================*/
+.card-bcg {
+  background-color: #f9fafa !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  margin: 10px 10px 0;
+  text-align: right;
+  padding: 0; }
+  .card-bcg .card-image {
+    background-color: white;
+    background-blend-mode: luminosity; }
+    .card-bcg .card-image::before {
+      content: "";
+      display: block;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      position: absolute;
+      pointer-events: none;
+      mix-blend-mode: multiply;
+      background-color: #b1eaf1; }
+    .card-bcg .card-image::before {
+      z-index: 2; }
+    .card-bcg .card-image img {
+      position: static;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%); }
+  .card-bcg h2.card-title {
+    color: white;
+    font-size: 14px;
+    right: 0 !important;
+    left: auto !important;
+    z-index: 3; }
+  .card-bcg h3.card-subtitle {
+    color: #757575 !important;
+    font-size: 14px;
+    padding-bottom: 10px; }
+  .card-bcg .card-body-text {
+    color: #757575 !important;
+    font-size: 14px; }
+  .card-bcg .card-action {
+    border-top: none !important;
+    padding: 0 !important; }
+    .card-bcg .card-action a:last-child {
+      margin-right: 5px; }
+    .card-bcg .card-action .button-default {
+      background-color: #26bbec !important;
+      color: white !important;
+      font-size: 14px;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      padding: 5px 10px;
+      line-height: 28px;
+      font-weight: normal; }

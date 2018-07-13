@@ -1,0 +1,31 @@
+/*  # Theme Post cards 2
+================================================*/
+.slider {
+  height: auto !important; }
+
+.item {
+  border-color: transparent;
+  background-color: transparent; }
+
+.card {
+  box-shadow: none !important;
+  margin: 10px 10px 0; }
+  .card .button-default {
+    background-color: #26bbec !important;
+    color: white !important;
+    font-size: 14px;
+    border-radius: 4px;
+    width: 32%;
+    padding: 0; }
+  .card img {
+    border-radius: 4px; }
+  .card .card-bcg {
+    background-color: #f9fafa !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    margin: 0 20px !important; }
+    .card .card-bcg h2.card-title {
+      color: #757575;
+      font-size: 14px !important; }
+    .card .card-bcg h3.card-subtitle {
+      color: #757575 !important;
+      font-size: 14px; }

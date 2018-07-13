@@ -1,0 +1,56 @@
+<!-- Left Menu Profile header-->
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu side="left">
+    <!-- Hero Top Whit Share-->
+    <div class="hero container-background">
+      <div class="item-avatar">
+        <img ng-src="{{leftMenuController.data.image}}" class="center" />
+        <h1 class="header-title">{{leftMenuController.data.title}}</h1>
+        <h2 class="header-subtitle">{{leftMenuController.data.description}}</h2>
+      </div>
+      <ion-item class="half item-icon-left transparent">
+        <i class="icon-small icon {{leftMenuController.data.iconFriend}}"></i>
+        <p>{{leftMenuController.data.friend}}</p>
+      </ion-item>
+      <ion-item class="half item-icon-left transparent">
+        <i class="icon-small icon {{leftMenuController.data.iconMessage}}"></i>
+        <p>{{leftMenuController.data.message}}</p>
+      </ion-item>
+      <ion-item class="half item-icon-left transparent">
+        <i class="icon-small icon {{leftMenuController.data.iconPhoto}}"></i>
+        <p>{{leftMenuController.data.photo}}</p>
+      </ion-item>
+      <ion-item class="half item-icon-left transparent">
+        <i class="icon-small icon {{leftMenuController.data.videoPhoto}}"></i>
+        <p>{{leftMenuController.data.video}}</p>
+      </ion-item>
+    </div>
+    <ion-content class="menu-left-list">
+      <div class="list scroll-content ionic-scroll ">
+        <a class="item item-bcg item-icon-left waves-effect waves-block waves-light"
+        ng-click="leftMenuController.clickEvent(item.pagePath)"
+        ng-repeat="item in leftMenuController.data.items">
+          <i class="icon-small icon {{item.icon}}"></i>
+          <h2 class="item-title">{{item.title}}</h2>
+          <h3 class="item-subtitle">{{item.description}}</h3>
+          <span class="badge badge-small">{{item.counter}}</span>
+        </a>
+      </div>
+    </ion-content>
+  </ion-side-menu>
+
+  <ion-side-menu-content class="left-menu-background">
+    <ion-nav-bar class="bar-stable purple">
+      <ion-nav-back-button></ion-nav-back-button>
+      <ion-nav-back-button class="button-clear">
+        <i class="ion-arrow-left-c"></i>
+      </ion-nav-back-button>
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon"
+        ng-click="leftMenuController.toggleLeft()" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <div ng-include="leftMenuController.templateUrl"></div>
+  </ion-side-menu-content>
+</ion-side-menus>

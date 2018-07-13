@@ -1,0 +1,31 @@
+<!--Theme LoginAndRegister Social-->
+<ion-content class="has-header">
+    <!--Theme LoginAndRegister Social Form-->
+    <div class="form-block">
+      <!--Theme  Social Buttons-->
+      <div class="logo-block">
+        <!--Theme LoginAndRegister Social Logo-->
+        <img ng-src="{{loginController.data.logo}}" />
+        <!--Theme LoginAndRegister Button Skip-->
+      </div>
+
+      <div class="form-input">
+        <div class="input-field">
+            <input id="username" type="text" ng-model="loginController.username">
+            <label for="username">{{loginController.data.username}}</label>
+        </div>
+        <div class="input-field">
+            <input id="password" type="password" ng-model="loginController.password">
+            <label for="password">{{loginController.data.password}}</label>
+        </div>
+        <!--
+        <button class="button-default btn waves-effect waves-light right ng-binding" ng-click="loginController.onClick('onRegister')">{{loginController.data.register}}
+        </button>
+        -->
+        <button class="button-default btn-login btn waves-effect waves-light right ng-binding" ng-click="loginController.onClick('onLogin')">{{loginController.data.login}}
+        </button>
+      </div>
+    </div>
+
+
+</ion-content>

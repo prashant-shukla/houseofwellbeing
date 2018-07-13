@@ -1,0 +1,48 @@
+/*  # Theme Small header + medium item
+===========================================*/
+.item-divider {
+  padding: 10px;
+  border-bottom: 1px solid transparent !important; }
+  .item-divider.header-divider {
+    background-color: #26bbec;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    border-color: transparent;
+    border-width: 0;
+    text-transform: uppercase;
+    z-index: 9; }
+  .item-divider h2.header-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 400; }
+  .item-divider .icon-medium {
+    color: #80d3f9;
+    font-size: 20px; }
+
+/*  # Content
+===========================================*/
+.item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+  .item-bcg.item-thumbnail-left {
+    padding-left: 100px;
+    min-height: 81px !important; }
+  .item-bcg .icon-medium {
+    color: #4ec2f6 !important;
+    font-size: 24px !important; }
+  .item-bcg.activated {
+    border-color: transparent; }
+  .item-bcg h2.item-title {
+    color: #757575;
+    font-size: 14px; }
+  .item-bcg h3.item-subtitle {
+    color: rgba(117, 117, 117, 0.6);
+    font-size: 14px;
+    margin: 0; }
+  .item-bcg .span-small {
+    color: rgba(117, 117, 117, 0.6);
+    font-size: 14px; }
+  .item-bcg img {
+    border-radius: 4px;
+    max-height: 56px !important;
+    max-width: 56px !important; }

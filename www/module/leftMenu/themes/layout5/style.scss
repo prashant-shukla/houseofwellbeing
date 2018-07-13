@@ -1,0 +1,39 @@
+//*  # Main Sass/
+@import "../../../../../scss/main-style.scss";
+/*  # Theme Simple
+===========================================*/
+.hero {
+  @include background-size;
+  @include darkening-blend-mode;
+  height: 200px;
+  position: relative;
+  box-shadow: $box-shadow-z2;
+
+  h2.header-subtitle {
+    color: theme-colors('textColors', 'accent');
+    font-size: font-size-text('h5');
+    position: absolute;
+    bottom: 5px;
+  }
+}
+/*  # Menu list
+===========================================*/
+.menu-left-list {
+  margin-top: 200px;
+  color: #616262;
+  line-height: normal;
+  font-size: 16px !important;
+
+  .item-bcg {
+    @include item( 'item-bcg');
+  }
+
+  h2.item-title {
+    @include item( 'item-title');
+    line-height: normal;
+  }
+
+  .icon-small {
+    @include icon( 'icon-small');
+  }
+}

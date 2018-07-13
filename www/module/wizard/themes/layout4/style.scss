@@ -1,0 +1,62 @@
+//*  #Main Sass
+@import "../../../../../scss/main-style.scss";
+/*  # Theme With Header
+===========================================*/
+img {
+  width: 100%;
+}
+
+h1.wizard-title {
+  @include wizard( 'wizard-title');
+}
+
+p.wizard-body-text {
+  @include wizard( 'wizard-body-text');
+}
+
+.background-color {
+  background: theme-colors('mainColors', 'primary');
+}
+
+.ion-record:before {
+  font-family: 'Fontello';
+  content: "\ea58";
+  color: #ffffff;
+}
+
+.button-default {
+  @include button( 'button-default');
+  width: 110px;
+  margin: 0 auto;
+}
+
+.slider {
+  height: 85%;
+}
+
+.scroll {
+  height: 100%;
+  min-height: 100%;
+}
+
+.wizard-travel-description {
+  padding: 20px;
+}
+
+.slidertext {
+  position: relative;
+}
+
+.slidertext::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 50%;
+  background: theme-colors('mainColors', 'primary');
+  background: -webkit-linear-gradient( transparent, theme-colors('mainColors', 'primary') 60%);
+  background: -o-linear-gradient( transparent, theme-colors('mainColors', 'primary') 60%);
+  background: -moz-linear-gradient( transparent, theme-colors('mainColors', 'primary') 60%);
+  background: linear-gradient( transparent, theme-colors('mainColors', 'primary') 60%);
+}

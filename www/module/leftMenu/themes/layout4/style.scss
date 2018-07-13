@@ -1,0 +1,55 @@
+//*  # Main Sass
+@import "../../../../../scss/main-style.scss";
+/*  # Theme Full width
+===========================================*/
+.hero {
+  @include darkening-blend-mode;
+  @include background-size;
+  position: relative;
+  height: 200px;
+  box-shadow: $box-shadow-z2;
+
+  .icon-large {
+    @include icon( 'icon-large');
+    margin-top: 40px;
+    display: block;
+    z-index: 9;
+    position: relative;
+  }
+
+  h1.header-title {
+    @include header( 'header-title');
+    margin: 0;
+    z-index: 9;
+    position: relative;
+  }
+}
+/*  # Menu List
+===========================================*/
+.menu-left-list {
+  margin-top: 198px;
+
+  .item-bcg {
+    @include item( 'item-bcg');
+  }
+
+  h2.item-title {
+    @include item( 'item-title');
+    padding-left: 30px;
+  }
+
+  .icon-small {
+    @include icon( 'icon-small');
+    margin-left: 25px;
+  }
+}
+
+.menu-left {
+  width: 90% !important;
+}
+
+.menu-open .menu-content {
+  transform: translate3d(90%, 0px, 0px) !important;
+  -ms-transform: translate3d(90%, 0px, 0px) !important;
+  -webkit-transform: translate3d(90%, 0px, 0px) !important;
+}

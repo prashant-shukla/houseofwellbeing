@@ -1,0 +1,73 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  #Theme Small item + header
+================================================*/
+.icon-medium {
+  @include icon( 'icon-medium');
+}
+
+.header-bcg {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  padding: 5px;
+  @include header( 'header-bcg');
+
+  .item {
+    border: none;
+    width: 100%;
+    display: table;
+  }
+
+  .half {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 20px;
+
+    h1.header-title {
+      @include header( 'header-title');
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+
+    h2.header-subtitle {
+      @include header( 'header-subtitle');
+    }
+
+    .span-medium {
+      @include span( 'span-medium');
+    }
+  }
+}
+
+.drag-and-drop {
+  top: 130px !important;
+
+  .item-bcg {
+    @include item( 'item-bcg');
+  }
+
+  .item-title {
+    @include item( 'item-title');
+    line-height: normal;
+  }
+
+  .item-subtitle {
+    @include item( 'item-subtitle');
+    line-height: normal;
+  }
+
+  .list i.icon {
+    font-size: 30px;
+  }
+
+  .item-content {
+    padding-left: 70px;
+    background-color: transparent;
+
+    &.item-right-edit {
+      background-color: transparent;
+    }
+  }
+}

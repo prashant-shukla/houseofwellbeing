@@ -1,0 +1,60 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  Theme Genaral LoginAndRegister Social
+===========================================*/
+img {
+    display: block;
+    float: left;
+    margin-left: 20px;
+    max-width: 50px;
+}
+.button-flat {
+  @include button('button-flat');
+}
+.form-block {
+  padding-top: 70px;
+  margin: 0 25px;
+
+}
+.input-field{
+  input {
+   @include input-item('input');
+ }
+}
+/* Style Social Network
+===========================================*/
+.form-input {
+  overflow: hidden;
+}
+.social {
+  margin: 40px auto 0;
+  overflow: hidden;
+  p {
+    color: theme-colors('textColors', 'primary');
+    font-size: 16px;
+  }
+  .button-social {
+    font-size: 16px;
+    color: #fff;
+    border-radius: $border-radius;
+    padding: 7px 10px;
+    width: 49%;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right:  5px;
+    margin-bottom: 5px;
+  }
+  & > .button-social:nth-child(3){
+    margin-right: 0;
+
+  }
+  & > .button-social:nth-child(5){
+    margin-right: 0;
+
+  }
+}
+.logo-block {
+    overflow: hidden;
+    padding-top: 50px;
+}

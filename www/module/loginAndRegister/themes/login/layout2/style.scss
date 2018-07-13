@@ -1,0 +1,60 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/* Genaral Login + logo 2
+===========================================*/
+img {
+    margin: 20px auto 0;
+    display: block;
+    max-width: 120px;
+}
+.input-field{
+  input {
+   @include input-item('input');
+ }
+}
+.form-block {
+  padding-top: 20px;
+  margin: 0 25px;
+  p {
+    color: theme-colors('textColors', 'primary');;
+    font-size: 16px;
+  }
+}
+.form-input{
+    background: theme-colors('mainColors', 'secondary');
+    @include input-item('form-block');
+    padding: 10px 25px;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow-z2;
+}
+/*  Content
+===========================================*/
+button.button-flat {
+    @include button('button-flat');
+    width: 32%;
+    padding: 0;
+}
+.social {
+  margin: 0 auto 40px;
+  overflow: hidden;
+  .button-social {
+    font-size: 16px;
+    color: #fff;
+    border-radius: $border-radius;
+    padding: 7px 10px;
+    width: 49%;
+    text-align: center;
+    float: left;
+    display: block;
+    margin-right:  5px;
+    margin-bottom: 5px;
+  }
+  & > .button-social:nth-child(3){
+    margin-right: 0;
+
+  }
+  & > .button-social:nth-child(5){
+    margin-right: 0;
+
+  }
+}

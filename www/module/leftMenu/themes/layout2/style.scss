@@ -1,0 +1,29 @@
+//*  # Main Sass
+@import "../../../../../scss/main-style.scss";
+/*  # Theme Narrow
+===========================================*/
+.main-left-list {
+  .icon-medium {
+    display: block;
+    @include icon( 'icon-medium');
+  }
+
+  .item-bcg {
+    @include item( 'item-bcg');
+  }
+
+  h2.item-title {
+    line-height: normal;
+    @include item( 'item-title');
+  }
+}
+
+.menu-left {
+  width: 120px !important;
+}
+
+.menu-open .menu-content {
+  transform: translate3d(120px, 0px, 0px) !important;
+  -ms-transform: translate3d(120px, 0px, 0px) !important;
+  -webkit-transform: translate3d(120px, 0px, 0px) !important;
+}

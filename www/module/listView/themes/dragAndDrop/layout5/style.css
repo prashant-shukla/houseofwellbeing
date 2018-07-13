@@ -1,0 +1,22 @@
+/*  # Theme Simple small item
+================================================*/
+.item-bcg {
+  background-color: #f9fafa !important;
+  border-color: #eeeeee !important;
+  transition: all 0s ease-out; }
+  .item-bcg .item-content {
+    background-color: transparent !important; }
+  .item-bcg .item-title {
+    padding-top: 10px;
+    color: #757575;
+    font-size: 14px; }
+  .item-bcg .item-reorder {
+    padding: 0; }
+    .item-bcg .item-reorder .button.icon {
+      font-size: 24px !important;
+      color: #4ec2f6 !important;
+      right: 0; }
+    .item-bcg .item-reorder.item-right-edit {
+      background-color: transparent; }
+      .item-bcg .item-reorder.item-right-edit.visible.active {
+        background-color: transparent !important; }

@@ -1,0 +1,55 @@
+//*  # Main Sass
+@import "../../../../../scss/main-style.scss";
+/*  # Theme Account header
+===========================================*/
+.hero {
+  padding: 25px 0;
+  height: 200px;
+  box-shadow: $box-shadow-z2;
+  background-color: theme-colors('mainColors', 'primary');
+
+  img {
+    height: 104px;
+    width: 104px;
+    border-radius: 50%;
+  }
+
+  h1.header-title {
+    @include header( 'header-title');
+    margin: 5px 0 0;
+    text-transform: uppercase;
+  }
+
+  h2.header-subtitle {
+    @include header( 'header-subtitle');
+    margin: 0;
+  }
+}
+/*  # Menu List
+===========================================*/
+.has-header-media {
+  margin-top: 200px;
+
+  .item-icon-left {
+    padding-left: 70px;
+  }
+
+  .item-bcg {
+    @include item( 'item-bcg');
+
+    h2.item-title {
+      @include item( 'item-title');
+      line-height: normal;
+    }
+
+    &.activated {
+      border-color: transparent;
+      border-width: 1px;
+    }
+
+    .icon-small {
+      @include icon( 'icon-small');
+      left: 30px;
+    }
+  }
+}

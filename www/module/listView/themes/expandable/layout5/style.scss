@@ -1,0 +1,44 @@
+//*  #Main Sass
+@import "../../../../../../scss/main-style.scss";
+/*  #Theme Centered with header
+===========================================*/
+.collapsible {
+  margin: 0;
+  border: 0;
+  box-shadow: none;
+
+  .icon-small {
+    @include icon( 'icon-small');
+  }
+
+  .active {
+    .up {
+      -ms-transform: rotate(180deg);
+      -webkit-transform: rotate(180deg);
+      transform: rotate(180deg);
+      right: 10;
+    }
+  }
+
+  .collapsible-header {
+    padding: 0;
+    border: 0;
+
+    .item-bcg {
+      @include item( 'item-bcg');
+    }
+
+    h2.item-title {
+      @include item( 'item-title');
+    }
+  }
+
+  .subitem-bcg {
+    @include subitem( 'subitem-bcg');
+    border-color: transparent;
+  }
+
+  h3.subitem-title {
+    @include subitem( 'subitem-title');
+  }
+}

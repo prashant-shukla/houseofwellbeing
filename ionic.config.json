@@ -1,0 +1,9 @@
+{
+  "name": "houseofwellbeing",
+  "app_id": "",
+  "integrations": {
+    "cordova": {},
+    "gulp": {}
+  },
+  "type": "ionic1"
+}

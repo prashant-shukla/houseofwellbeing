@@ -1,0 +1,60 @@
+/*  #Thema Big Image
+===========================================*/
+.slider {
+  height: 92%; }
+
+.scroll {
+  height: 100%;
+  min-height: 100%; }
+
+h1.wizard-title {
+  color: white;
+  font-size: 20px !important;
+  z-index: 9;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-transform: uppercase; }
+
+.slider-pager {
+  bottom: 35px; }
+  .slider-pager .ion-record:before {
+    font-family: 'Fontello';
+    content: "\e9b6";
+    color: #26bbec; }
+
+.button-default {
+  background-color: #26bbec !important;
+  color: white !important;
+  font-size: 14px;
+  border-radius: 4px;
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 4px;
+  border-width: 0;
+  padding: 15px 0;
+  text-transform: uppercase;
+  margin-top: -15px; }
+
+.slidertext {
+  background-size: cover;
+  height: 85%;
+  margin: 5% auto;
+  display: table;
+  width: 90%;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden; }
+  .slidertext::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0.8;
+    top: 0;
+    background: -moz-linear-gradient(top, rgba(2, 154, 228, 0.51) 0%, rgba(2, 154, 228, 0.5) 100%);
+    background: -webkit-linear-gradient(top, rgba(2, 154, 228, 0.51) 0%, rgba(2, 154, 228, 0.5) 100%);
+    background: linear-gradient(to bottom, rgba(2, 154, 228, 0.51) 0%, rgba(2, 154, 228, 0.5) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#82029ae4', endColorstr='#80029ae4',GradientType=0 ); }
